@@ -1,0 +1,52 @@
+
+
+
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 9vh 0 10px 0;
+}
+
+.slideContainer {
+  border: 2px solid #49a6e9;
+  width: 90vw;
+  height: 70vh;
+  max-width: 80rem;
+  position: relative;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.slideContainer img {
+ width: 90vw;
+ max-width: 80rem;
+ height: 70vh;
+}
+
+
+
+
+.dotContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh
+}
+
+.dot1,
+.dot2,
+.dot3 {
+  margin: auto 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+.dot1:active, .dot2:active, .dot3:active{
+    background-color: palevioletred;
+    
+}
